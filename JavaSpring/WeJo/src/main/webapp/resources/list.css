@@ -1,0 +1,111 @@
+a {
+	padding: 5px 30px;
+	display: inline-block;
+	margin: 5px;
+	background: #99aaaa;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.student_list {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.student_list:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.student_list table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.student_list th, .student_list td {
+  border: 1px solid #eee;
+  text-align: center;
+  padding: 5px;
+}
+
+.student_list th {
+  background: #999;
+  color: #fff;
+}
+
+.student_list tr:nth-of-type(2n) td {
+  background: #e1e1e1;
+}
+
+.student_list button {
+  display: inline-block;
+  padding: 5px 60px;
+  background: #3f6765;
+  border: 1px solid #1f4f45;
+  cursor: pointer;
+  margin: 20px 0px 0px 0px;
+  color: #fff;
+}
+
+.top_button_section {
+  padding: 10px 50px;
+}
+
+.top_button_section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top_button {
+  display: inline-block;
+  padding: 5px 30px;
+  background: #4f3f45;
+  border: 1px solid #4f3f45;
+  cursor: pointer;
+  margin: 10px;
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  border-radius: 5px 0px;
+}
+
+.top_button:hover {
+  background: #333;
+}
+
+.select_section {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.select_section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.select_section input[type="text"] {
+  padding: 5px 20px;
+  display: inline-block;
+  border: 1px solid #eee;
+  height: 20px;
+  vertical-align: top;
+}
+
+.select_section input[type="submit"] {
+  background: #666;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 5px 20px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.select_section input[type="submit"]:hover{
+  background: #aaa;
+}
